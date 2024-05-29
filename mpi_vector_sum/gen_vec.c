@@ -15,7 +15,7 @@ int main(int argc, char** argv) {
         fprintf(stderr, "I cannot write to a file.\n");
     }
 
-    srant(time(0));
+    srand(time(0));
     fprintf(out, "%d\n", count);
 
     for(i = 0; i < count; i++) {
